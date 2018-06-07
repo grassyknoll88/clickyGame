@@ -1,14 +1,13 @@
 import React from "react";
-import FadeIn from "./transitions/fade-in";
+import "./Header.css";
 
-const Header = () => {
-  return (
-    <header className="App-header">
-      <FadeIn in={true} duration={600} length={"50px"} direction={"bottom"}>
-        <h1>Rugrat Clicky Game</h1>
-      </FadeIn>
-    </header>
-  );
-};
+const Header = props => (
+  <div className="header">
+    <div className="title">{props.children}</div>
+    <div className="scores">
+      Score: {props.score} Highscore: {props.highscore}
+    </div>
+  </div>
+);
 
 export default Header;

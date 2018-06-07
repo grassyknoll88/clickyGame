@@ -1,0 +1,16 @@
+.header {
+  width: 100%;
+  font-size: 2rem;
+  color: black;
+  margin-bottom: 10px;
+}
+
+.title {
+  float: left;
+  font-family: "Jua", sans-serif;
+}
+
+.scores {
+  float: right;
+  font-family: "Jua", sans-serif;
+}
