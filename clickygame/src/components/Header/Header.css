@@ -1,16 +1,19 @@
 .header {
   width: 100%;
   font-size: 2rem;
-  color: black;
-  margin-bottom: 10px;
+  color: rgba(255, 0, 0, 0.842);
+  margin-bottom: 50px;
 }
 
 .title {
   float: left;
-  font-family: "Jua", sans-serif;
+  margin-top: 20px;
+  font-family: "Gloria Hallelujah", cursive;
 }
 
 .scores {
   float: right;
-  font-family: "Jua", sans-serif;
+  margin-top: 30px;
+  padding: 30px;
+  font-family: "Gloria Hallelujah", cursive;
 }
